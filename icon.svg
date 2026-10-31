@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Mind Wired</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#2b2170"/>
+      <stop offset="1" stop-color="#0e0c2a"/>
+    </radialGradient>
+    <linearGradient id="wire" gradientUnits="userSpaceOnUse" x1="0" y1="110" x2="0" y2="400">
+      <stop offset="0" stop-color="#6ff5ff"/>
+      <stop offset="1" stop-color="#2e9bff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- left hemisphere: the mind -->
+    <g stroke="#ffffff">
+      <path stroke-width="18" d="M244 124 C196 100 128 120 118 182 C92 204 92 262 114 290 C102 334 138 380 184 384 C206 404 234 400 244 388 Z"/>
+      <path stroke-width="14" d="M152 166 C168 184 198 178 206 156"/>
+      <path stroke-width="14" d="M244 228 C222 214 200 236 180 228 C164 222 150 234 142 248"/>
+      <path stroke-width="14" d="M134 310 C156 298 172 322 196 312"/>
+      <path stroke-width="14" d="M244 318 C224 312 212 330 214 350"/>
+    </g>
+    <!-- right hemisphere: the wiring -->
+    <g stroke="url(#wire)">
+      <path stroke-width="18" d="M268 124 C316 100 384 120 394 182 C420 204 420 262 398 290 C410 334 374 380 328 384 C306 404 278 400 268 388 Z"/>
+      <path stroke-width="12" d="M268 178 H314 L338 154"/>
+      <path stroke-width="12" d="M268 246 H360"/>
+      <path stroke-width="12" d="M268 312 H310 L336 338"/>
+      <path stroke-width="12" d="M318 246 L342 222"/>
+    </g>
+    <g stroke="#6ff5ff" stroke-width="9" fill="#0e0c2a">
+      <circle cx="347" cy="145" r="11"/>
+      <circle cx="372" cy="246" r="11"/>
+      <circle cx="345" cy="347" r="11"/>
+      <circle cx="351" cy="213" r="9"/>
+    </g>
+  </g>
+</svg>

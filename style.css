@@ -37,3 +37,5 @@ p, li { color: var(--ink); }
 .muted { color: var(--muted); font-size: 14px; }
 a { color: var(--accent); }
 ul { padding-left: 22px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 14px; color: var(--ink); font-weight: 700; text-decoration: none; }
+.brand img { border-radius: 8px; }
